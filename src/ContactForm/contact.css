@@ -1,8 +1,12 @@
-.contactForm{
-    width: 80%;
-    height: auto;
-    background: rgba(18,63,74);
+.contactForm-div{
+    width: 50%;
     margin: 0 auto;
-    top:60px;
-    
+    height: auto;
+    background: rgba(13,63,54);
+
+}
+.form-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    background:#0000FF;
 }
