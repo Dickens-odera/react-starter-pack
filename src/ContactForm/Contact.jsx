@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './contact.css';
 
-
 class Contact extends Component{
     render(){
         return (
@@ -17,7 +16,7 @@ class Contact extends Component{
                     <textarea name="message" id="message-field" placeholder=""></textarea>
                     </div>
                     <div className="form-group">
-                    <input type="submit" value="Save"/>
+                    <input type="submit" value="Save" className="btn btn-success btn-sm"/>
                     </div>
                 </div>
                 </div>
