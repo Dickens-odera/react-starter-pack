@@ -1,26 +1,52 @@
 import React, {Component} from 'react';
 import './contact.css';
-
 class Contact extends Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            username :'',
+            email :'',
+            message :'',
+
+        }
+    }
+    
+    updateUser(event){
+        this.setState({username: event.target.value});
+    }
     render(){
         return (
-            <div className="contactForm-div">
-            <div className="form-wrapper">
-                <div className="form-group">
-                    <input type="text" name="username" id="username-field" placeholder="Enter username"/>
+            <div className="contact-form">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-4 col-xs-4 ">
                     </div>
-                    <div className="form-group">
-                    <input type="email" name="email" id="email-field" placeholder="example@gmail.com"/>
+                    <div className="col-md-4 col-xs-4 ">
+                    <div className="brand">
+                        <h3 className="text-center responsive bg-bright header-text" id="msg-div">Contact Us</h3>
                     </div>
-                    <div className="form-group">
-                    <textarea name="message" id="message-field" placeholder=""></textarea>
+                        <form className="form-group" action="">
+                            <div className="form-group">
+                                <input type="text" name="username" placeholder="Enter username" className="form-control" id="username"
+                                />
+                            </div>
+                            <div className="form-group">
+                                    <input type="email" name="email" placeholder="example@gmail.com" className="form-control form-field" id="email"/>                            </div>
+                            <div className="form-group">
+                                    <textarea name="message" className="form-control" placeholder="Enter your message here" id="message">
+                                   
+                                    </textarea>
+                            </div>
+                            <div className="form-group">
+                                    <input type="submit" value="SEND" className="btn btn-success btn-lg" id="btn-msg"/>
+                            </div>
+                        </form>
                     </div>
-                    <div className="form-group">
-                    <input type="submit" value="Save" className="btn btn-success btn-sm"/>
+                    <div className="col-md-4 col-xs-4 responsive">
                     </div>
                 </div>
-                </div>
-            
+            </div>
+            </div>
         );
     }
 }

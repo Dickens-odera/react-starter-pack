@@ -1,12 +1,139 @@
-.contactForm-div{
-    width: 50%;
+body, html{
+    margin-top:0;
+    padding: 0;
+}
+
+.contact-form{
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
-    height: auto;
-    background: rgba(13,63,54);
+    padding: 15%;
+    background: rgba(13,63,54,.5);
+    background: url("./static/img-collaboration2.jpg");
+    overflow: hidden;
+    background-repeat:repeat;
+    /*background-clip: unset;*/
+    background-size: cover;
 
 }
-.form-wrapper{
-    width: 80%;
-    margin: 0 auto;
-    background:#0000FF;
+#btn-msg{
+    width:100%;
+    transition: 0ms;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+
+}
+#btn-msg:hover{
+    background: rgba(7, 73, 37, 0.8);
+}
+@keyframes player1{
+    0%{
+        background:rgba(3, 247, 202, 0.5);
+
+    }
+    20%{
+        background:rgba(64, 18, 231, 0.8);
+    }
+    40%{
+        background: rgb(240, 8, 116);
+    }
+    60%{
+        background: rgb(93, 240, 8);
+    }
+    80%{
+        background:rgba(231, 85, 18, 0.8);
+    }
+    100%{
+        background:rgba(155, 150, 77, 0.8);
+    }
+}
+.form-control{
+    font-size: 18px;
+    color:#000 !important;
+    font-family:'Times New Roman', Times, serif !important;
+    font-weight: italic;
+}
+.form-control:focus{
+    backface-visibility: unset !important;
+}
+.brand{
+    width: 100%;
+    background: rgba(7, 73, 37, 0.8);
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    animation-name: player;
+    animation-delay: 1s;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+    
+
+}
+.brand:focus{
+    transition: 2em;
+}
+.brand #msg-div{
+    color:#fff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+}
+.alert{
+    display: block;
+}
+.navbar-brand{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    color: #fff000 !important;
+
+}
+
+.navbar-brand:hover{
+    background: rgba(6, 183, 236, 0.8) !important;
+    border-radius:4px !important;
+}
+
+.nav-bar-text-seprarate{
+    color: #fff;
+    font-size: 22px;
+
+}
+
+.container-fluid{
+    width:100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.footer-container{
+    background: rgba(13, 156, 132, 0.5);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+#sub-container{
+    padding: 10px;
+    z-index: -2;
+    text-align: center;
+    text-indent: 2ch;
+    font-size:18px;
+}
+.col-md-4 .col-sm-offset-4{
+    text-align: start;
+}
+@media(max-width:780px){
+    .contact-form{
+        background: url("./static/CMS-Web-Design-and-Development1.jpg");
+        display: flex;
+        background-color: rgba(231, 18, 28, 0.8);
+        background-size: inherit;
+    }
 }
