@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 //import Members from './ContactForm/members';
 import Header from './ContactForm/headers';
-import Contact from './ContactForm/Contact';
+import Contact from './ContactForm/Contact.jsx';
 //import Info from './ContactForm/info';
 //import Footer from './ContactForm/Footer';
 class App extends Component {
