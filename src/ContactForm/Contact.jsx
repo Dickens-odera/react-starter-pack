@@ -6,13 +6,13 @@ class Contact extends Component{
         this.state = {
             username :'',
             email :'',
-            message :'',
+            message :''
 
         }
     }
-    
-    updateUser(event){
-        this.setState({username: event.target.value});
+    componentWillMount(){
+        //this.setState({[this.state.username]:this.target.value})
+        console.log(1611); 
     }
     render(){
         return (
@@ -50,4 +50,5 @@ class Contact extends Component{
         );
     }
 }
+
 export default Contact;
