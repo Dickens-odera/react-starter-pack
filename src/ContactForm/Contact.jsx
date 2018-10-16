@@ -28,12 +28,16 @@ class Contact extends Component{
                         <form className="form-group" action="">
                             <div className="form-group">
                                 <input type="text" name="username" placeholder="Enter username" className="form-control" id="username"
+                                value={this.state.username}
                                 />
                             </div>
                             <div className="form-group">
-                                    <input type="email" name="email" placeholder="example@gmail.com" className="form-control form-field" id="email"/>                            </div>
+                                    <input type="email" name="email" placeholder="example@gmail.com" className="form-control form-field" id="email"
+                                        value={this.state.email}
+                                    />                            </div>
                             <div className="form-group">
-                                    <textarea name="message" className="form-control" placeholder="Enter your message here" id="message">
+                                    <textarea name="message" className="form-control" placeholder="Enter your message here" id="message"
+                                    value={this.state.message}>
                                    
                                     </textarea>
                             </div>

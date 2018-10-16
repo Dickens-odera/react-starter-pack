@@ -11,7 +11,7 @@ class Footer extends Component{
                     <h4 className="heading">
                     About Us
                     </h4>
-                    <p className="about-info">We are comitted to ensuring that we server you the best we can</p>
+                    <p className="about-info">We are comitted towards ensuring that we server you the best we can</p>
                  </div>
 
             </div>
