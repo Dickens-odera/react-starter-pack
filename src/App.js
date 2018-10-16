@@ -8,7 +8,7 @@ import Contact from './ContactForm/Contact.jsx';
 
 //import {Provider} from 'react-redux';
 //import Info from './ContactForm/info';
-//import Footer from './ContactForm/Footer';
+import Footer from './ContactForm/Footer';
 
 //const store = createStore(()=> [], {}, applyMiddleware());
 class App extends Component {
@@ -18,6 +18,8 @@ class App extends Component {
 <div className="App">
       <Header />
         <Contact />
+        <Footer />
+
       </div>
       //</Provider>
     );
