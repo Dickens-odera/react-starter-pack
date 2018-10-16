@@ -29,15 +29,18 @@ class Contact extends Component{
                             <div className="form-group">
                                 <input type="text" name="username" placeholder="Enter username" className="form-control" id="username"
                                 value={this.state.username}
+                                onChange={this.state.onChange}
                                 />
                             </div>
                             <div className="form-group">
                                     <input type="email" name="email" placeholder="example@gmail.com" className="form-control form-field" id="email"
                                         value={this.state.email}
+                                        onChange={this.state.onChange}
                                     />                            </div>
                             <div className="form-group">
                                     <textarea name="message" className="form-control" placeholder="Enter your message here" id="message"
-                                    value={this.state.message}>
+                                    value={this.state.message}
+                                    onChange ={this.state.onChange}>
                                    
                                     </textarea>
                             </div>
