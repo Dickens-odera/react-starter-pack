@@ -7,7 +7,12 @@ class Footer extends Component{
             <div className="container-fluid">
         <div className="row" id="sub-container">
             <div className="col-md-4 col-sm-offset-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sapiente ex mollitia, recusandae, pariatur dicta vitae voluptates saepe dignissimos labore earum voluptatem expedita repellat nostrum? Alias vero nihil veniam facilis.
+                <div className="contact-info">
+                    <h4 className="heading">
+                    About Us
+                    </h4>
+                    
+                 </div>
 
             </div>
             <div className="col-md-4 col-sm-offset-4">

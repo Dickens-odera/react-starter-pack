@@ -113,7 +113,7 @@ body, html{
 }
 
 .footer-container{
-    background: rgba(18,17,17,.8);
+    background: rgb(0,0,0);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -124,7 +124,7 @@ body, html{
     z-index: -2;
     text-align: center;
     text-indent: 2ch;
-    font-size:18px;
+    font-size:15px;
 }
 .col-md-4 .col-sm-offset-4{
     text-align: start;
