@@ -22,7 +22,7 @@ class Contact extends Component{
     }
      componentWillMount(){
         //this.setState({[this.state.username]:this.target.value})
-        console.log(1611); 
+        console.log("Hello react"); 
     }
     componentDidMount(){
         //do some action here
