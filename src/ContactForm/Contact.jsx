@@ -12,14 +12,16 @@ class Contact extends Component{
     this.onSubmit = this.onSubmit.bind(this);
     }
 
-    onChange(e){
-        this.setState({[e.target.name]: e.target.value})
+    onChange(event){
+        this.setState({[event.target.name]: event.target.value})
     }
+
     onSubmit(event){
         alert("The data has been submitted");
         event.preventDefaulf();
 
     }
+
      componentWillMount(){
         //this.setState({[this.state.username]:this.target.value})
         console.log("Hello react"); 
