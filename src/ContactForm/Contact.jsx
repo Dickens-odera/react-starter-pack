@@ -29,6 +29,7 @@ class Contact extends Component{
     componentDidMount(){
         //do some action here
     } 
+    
     render(){
         return (
             <div className="contact-form">
