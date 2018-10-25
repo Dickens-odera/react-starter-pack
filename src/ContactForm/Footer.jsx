@@ -16,12 +16,10 @@ class Footer extends Component{
 
             </div>
             <div className="col-md-4 col-sm-offset-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quaerat saepe cupiditate facilis consectetur libero ex molestias. Nisi accusamus, repellat velit quo aliquam placeat fuga! Voluptatum sequi dolor numquam ipsum!
-
+                Our location
             </div>
             <div className="col-md-4 col-sm-offset-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita adipisci perspiciatis voluptates. Libero aliquid quidem sit labore dolorem non, quod consequuntur praesentium incidunt inventore veniam facere eligendi consequatur! Maxime, ratione!
-
+                We are social
                 </div>
         </div>
             </div>
