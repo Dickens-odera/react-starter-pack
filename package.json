@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
     "cors": "^2.8.4",
     "express": "^4.16.4",
     "mongodb": "^3.1.8",
@@ -18,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server":"node server",
-    "client":"npm server.js"
+    "server": "node server.js",
+    "client": "node server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
