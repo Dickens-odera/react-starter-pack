@@ -9,8 +9,8 @@ userRouter.route('/add').post(
         const userData = new users(req.body);
         userData.save()
         .then(
-            (user)=>{
-                res.json("User added succssfully");
+            ()=>{
+                res.send("User added succssfully");
             }
         )
         .catch(
@@ -20,4 +20,4 @@ userRouter.route('/add').post(
         )
 
     }
-)
+);

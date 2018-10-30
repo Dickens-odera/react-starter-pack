@@ -31,6 +31,7 @@ class Contact extends Component{
     } 
     
     render(){
+        const {username, email, message }= this.props;
         return (
             <div className="contact-form">
             <div className="container">
