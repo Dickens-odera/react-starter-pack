@@ -10,7 +10,7 @@ userRouter.route('/add').post(
         userData.save()
         .then(
             ()=>{
-                res.send("User added succssfully");
+                res.json("User added succssfully");
             }
         )
         .catch(
@@ -19,5 +19,19 @@ userRouter.route('/add').post(
             }
         )
 
+    }
+);
+//get the data
+userRouter.route('/').get(
+    (req, res)=>{
+        users.find(
+            function(error, users){
+                if(error){
+                    console.log(error);
+                }else{
+                    res.json(users);
+                }
+            }
+        )
     }
 );

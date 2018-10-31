@@ -18,7 +18,7 @@ class Contact extends Component{
 
     onSubmit(event){
         alert("The data has been submitted");
-        event.preventDefault();
+    
 
     }
 
